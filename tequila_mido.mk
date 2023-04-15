@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common tequilaOS stuff.
 $(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 
+# tequilaOS props
+TARGET_BOOT_ANIMATION_RES = 1080
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := tequila_mido
